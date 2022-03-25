@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n;
+	clrscr();
+	printf("\n Enter an integer");
+	scanf("%d",&n);
+	if(n%2==0)
+	{
+		printf("\nEven");
+	}
+	else
+	{
+		printf("\nOdd");
+	}
+	getch();
+}
